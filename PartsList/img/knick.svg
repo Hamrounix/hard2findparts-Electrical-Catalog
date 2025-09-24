@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 841.89 269.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf);
+      }
+
+      .cls-3 {
+        fill: url(#Unbenannter_Verlauf_2);
+      }
+
+      .cls-4 {
+        fill: #1d1d1b;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-8 {
+        fill: #c20016;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M146.9,108.47c0,41.34,33.57,74.98,74.88,75.09v-15.99c-32.49-.12-58.89-26.58-58.89-59.1s26.51-59.11,59.11-59.11,58.73,26.15,59.09,58.43h15.99c-.36-41.1-33.9-74.43-75.08-74.43s-75.1,33.69-75.1,75.1"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf" data-name="Unbenannter Verlauf" x1="0" y1="269.79" x2="1" y2="269.79" gradientTransform="translate(146.9 40629.79) scale(150.2 -150.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e9c56c"/>
+      <stop offset=".3" stop-color="#dbd6bb"/>
+      <stop offset="1" stop-color="#b88d3c"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path class="cls-1" d="M54.26,174.5c0-22.82,18.57-41.39,41.39-41.39s41.39,18.57,41.39,41.39-18.57,41.39-41.39,41.39-41.39-18.57-41.39-41.39M70.2,90.92c0-14.03,11.42-25.45,25.45-25.45s25.45,11.42,25.45,25.45-11.42,25.45-25.45,25.45-25.45-11.42-25.45-25.45M54.21,90.92c0,13.08,6.1,24.76,15.6,32.36-18.69,9.47-31.54,28.86-31.54,51.21,0,31.64,25.74,57.38,57.39,57.38s57.39-25.74,57.39-57.38c0-22.35-12.85-41.74-31.54-51.21,9.5-7.6,15.6-19.28,15.6-32.36,0-22.85-18.59-41.45-41.45-41.45s-41.45,18.59-41.45,41.45"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_2" data-name="Unbenannter Verlauf 2" x1="0" y1="270.09" x2="1" y2="270.09" gradientTransform="translate(38.27 31138.64) scale(114.77 -114.77)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e9c56c"/>
+      <stop offset=".3" stop-color="#dbd6bb"/>
+      <stop offset="1" stop-color="#b88d3c"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="841.89" height="269.29"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" width="841.89" height="269.29"/>
+    </clipPath>
+  </defs>
+  <g class="cls-9">
+    <rect class="cls-2" x="146.9" y="33.38" width="150.18" height="150.19"/>
+  </g>
+  <g class="cls-5">
+    <rect class="cls-3" x="38.27" y="49.48" width="114.77" height="182.4"/>
+  </g>
+  <path class="cls-4" d="M442.33,141.42h27.49v-20.32h-27.49v20.32ZM442.33,149.86h27.49v82.28h-27.49v-82.28Z"/>
+  <g class="cls-7">
+    <path class="cls-4" d="M534.74,180.03s-1.85-10.32-12.85-10.35c-12.38-.04-14.76,13.03-14.76,22.35,0,9.78,3.51,21.03,14.76,21.03s12.32-11.66,12.32-11.66h26.07c0,17.51-14.92,34.51-39.01,34.51s-42.64-20.06-42.64-44.81,17.2-44.81,42.64-44.81c37.4,0,39.05,32.49,38.65,33.74.12-.04-25.17,0-25.17,0"/>
+  </g>
+  <path class="cls-4" d="M266.81,176.61l45.24,55.53h36.09l-45.24-55.53,45.24-55.5h-36.09l-45.24,55.5ZM235.63,121.11h30s0,111.03,0,111.03h-30v-111.03Z"/>
+  <path class="cls-4" d="M660.77,149.86h-32.59l-32.85,41.04,33.01,41.25h32.59l-33.01-41.25,32.86-41.04ZM567.31,121.11h27.5v111.03h-27.5v-111.03Z"/>
+  <g class="cls-6">
+    <path class="cls-4" d="M377.99,185.17v46.97s-27.43,0-27.43,0v-82.28h23.95l2.77,7.14s6.24-10.35,21.42-10.35c22.81,0,30.59,20.06,30.59,31.61l.06,53.89h-27.43s0-46.89,0-46.89c0-3.21-1.96-12.36-13.03-12.36-9.46,0-10.9,8.75-10.9,12.28"/>
+  </g>
+  <polygon class="cls-8" points="803.62 176.61 758.38 232.14 722.29 232.14 767.53 176.61 722.28 121.11 758.38 121.11 803.62 176.61"/>
+</svg>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Industrial Hard 2 Find Parts</title>
+    <link
+      rel="icon"
+      href="./PartsList/img/favicon-32x32.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 2rem auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      }
+      h1 {
+        text-align: center;
+        color: #0077cc;
+      }
+      .section-title {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.5rem;
+        color: #0077cc;
+        text-align: center;
+      }
+      .contact-info p {
+        margin: 0.5rem 0;
+      }
+      .contact-info strong {
+        display: inline-block;
+        width: 180px;
+      }
+      .contact-info a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+      form button {
+        padding: 0.75rem 1.5rem;
+        background: #0077cc;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      form button:hover {
+        background: #005fa3;
+      }
+      .homeImgFromContact {
+        position: relative;
+        top: 7px;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(0, 255, 55);
+        border-radius: 3px;
+      }
+
+      .homeFromContact {
+        position: absolute;
+        top: 40px;
+        left: 300px;
+        color: #0077cc;
+        font-size: 25px;
+        text-decoration: none;
+      }
+      .download3 {
+        position: absolute;
+        top: 40px;
+        left: 920px;
+        color: #0077cc;
+        font-size: 25px;
+        text-decoration: none;
+      }
+      .downloadImgFromContact {
+        position: relative;
+        top: 7px;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(0, 255, 55);
+        border-radius: 3px;
+      }
+
+      .contact-icon {
+        font-family: "Material Icons";
+        font-size: 24px;
+        vertical-align: middle;
+        margin-right: 5px;
+        color: #0077cc;
+      }
+
+      .page-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 2rem;
+      }
+
+      .form-group {
+        position: relative;
+        margin-bottom: 2rem;
+        width: 80%;
+      }
+
+      .form-label {
+        position: absolute;
+        left: 16px;
+        top: 12px;
+        padding: 0 4px;
+        background-color: #fff;
+        color: #0077cc;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      .form-input {
+        padding: 1rem 16px;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        font-size: 1rem;
+        width: 100%;
+        background: transparent;
+        transition: all 0.2s ease;
+      }
+
+      .form-input:focus,
+      .form-input:not(:placeholder-shown) {
+        border-color: #0077cc;
+        outline: none;
+      }
+
+      .form-input:focus + .form-label,
+      .form-input:not(:placeholder-shown) + .form-label {
+        transform: translateY(-24px) scale(0.9);
+        color: #0077cc;
+        font-weight: 600;
+      }
+
+      .form-input:focus + .form-label {
+        color: #0077cc;
+      }
+
+      .form-input::placeholder {
+        color: transparent;
+      }
+
+      /* Textarea specific styling */
+      textarea.form-input + .form-label {
+        background: #fff;
+        transform-origin: left top;
+      }
+
+      textarea.form-input:focus + .form-label,
+      textarea.form-input:not(:placeholder-shown) + .form-label {
+        transform: translateY(-24px) scale(0.9);
+      }
+
+      /* Error state */
+      .form-input:invalid:not(:placeholder-shown) + .form-label {
+        color: #dc3545;
+      }
+
+      @media (max-width: 768px) {
+        .contact-form {
+          padding: 1.5rem;
+        }
+
+        .form-input {
+          padding: 10px 14px;
+        }
+
+        .form-group {
+          margin-bottom: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a class="homeFromContact" href="./index.html" target="">
+        <img
+          class="homeImgFromContact"
+          src="./PartsList/img/favicon-32x32.png"
+        />
+        Home</a
+      >
+      <a
+        class="download3"
+        href="./Hard2FindParts_Electricals_Catalog-23-09-2025.xlsx"
+      >
+        <span
+          class="material-icons"
+          style="vertical-align: middle; margin-right: 5px"
+        >
+          download
+        </span>
+        Full Catalog</a
+      >
+      <div class="page-title">
+        <span class="material-icons contact-icon">support_agent</span>
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="section-title">Business Contact Information</div>
+      <div class="contact-info">
+        <p><strong>Name:</strong> Adnen Hamroony</p>
+        <p><strong>Company:</strong> Industrial Hard 2 Find Parts</p>
+        <p><strong>VAT / EORI:</strong>1753019/F</p>
+        <p><strong>Street Address:</strong> Rue Taher Ben Achour N°19</p>
+        <p><strong>City:</strong> Teboulba</p>
+        <p><strong>State:</strong> Monastir</p>
+        <p><strong>Postal Code:</strong> 5080</p>
+        <p><strong>Country:</strong> Tunisia</p>
+        <p><strong>Phone:</strong> +216 29 529 165</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:hamrouni.adnene@gmail.com"
+            >hamrouni.adnene@gmail.com</a
+          >
+        </p>
+        <p>
+          <strong>Website:</strong>
+          <a href="https://hamrounix.github.io/elctritronics/" target="_blank"
+            >https://hamrounix.github.io/elctritronics/</a
+          >
+        </p>
+      </div>
+
+      <div class="section-title">Send Us a Message</div>
+      <form
+        action="https://formsubmit.co/911c522f02adbcfff1901c37849282dc"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-group">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-input"
+            placeholder="Enter your name"
+            required
+          />
+          <label class="form-label" for="name">Full Name</label>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-input"
+            placeholder="Enter your email"
+            required
+          />
+          <label class="form-label" for="email">Email Address</label>
+        </div>
+
+        <div class="form-group">
+          <textarea
+            id="message"
+            name="message"
+            class="form-input"
+            placeholder="Type your message here..."
+            required
+          ></textarea>
+          <label class="form-label" for="message">Message</label>
+        </div>
+        <!-- Hidden fields for formsubmit -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://hamrounix.github.io/elctritronics/thankyou.html"
+        />
+
+        <button type="submit" class="submit-btn">
+          <span
+            class="material-icons"
+            style="vertical-align: middle; margin-right: 5px"
+          >
+            send
+          </span>
+          Send Message
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
